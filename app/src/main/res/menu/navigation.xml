@@ -5,7 +5,7 @@
         android:icon="@drawable/home" />
     <item android:id="@+id/action_Berita"
         android:title="Berita"
-        android:icon="@drawable/news" />
+        android:icon="@drawable/berita" />
     <item android:id="@+id/action_Foto"
         android:title="Foto"
         android:icon="@drawable/foto" />
