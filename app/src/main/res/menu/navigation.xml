@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_Home"
+        android:title="Home"
+        android:icon="@drawable/home" />
+    <item android:id="@+id/action_Berita"
+        android:title="Berita"
+        android:icon="@drawable/news" />
+    <item android:id="@+id/action_Foto"
+        android:title="Foto"
+        android:icon="@drawable/foto" />
+    <item android:id="@+id/action_Otomodif"
+        android:title="Otomodif"
+        android:icon="@drawable/otomodif" />
+</menu>
