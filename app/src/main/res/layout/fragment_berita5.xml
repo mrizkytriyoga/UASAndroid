@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Berita5Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict5">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:text="Tampil Di Tokyo Auto Salon 2020, Nissan Skyline Bergaya Rolls Royce"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="Seperti yang kita ketahui, dulunya Skyline memiliki varian tertinggi yakni GT-R. Sama seperti halnya Honda Civic dengan Type R. Namun pada generasi terakhirnya, antara Skyline dan GT-R berpisah menjadi 2 mobil. Adapun Nissan melanjutkan GT-R R35 jadi mobil performa tinggi, serta Skyline menjadi lineup Infiniti sebagai sedan mewah.
+
+Tapi kabarnya, tahun 2020 mendatang Nissan akan mengembalikan Skyline pada line up sedannya loh. Bahkan tersiar kabar terdapat 2 konsep berbeda untuk mobil ini, yang akan ditampilkan di Tokyo Auto Salon 2020.
+Kedua konsep tersebut memiliki nama masing-masing Sprint 400R dan Deluxe Advanced. Sprint 400R punya desain lebih sporty, sementara Deluxe Advance lebih kedepankan aura mewah dan elegan."
+                android:textSize="15dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict15">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Sprint 400R punya model lebih agresif, lengkap juga seperti penambahan lips, side skirt, serta spoiler sehingga menambah aura racing-nya. Begitu juga pada sisi kap mesinnya masih mengambil dari R35 dan bumper memiliki air duct cukup besar, serta pelek diganti berwarna hitam aftermarket, hasilnya kian sporty.
+Konsep 400R Sprint kemungkinan besar masih menggunakan mesin sama, yakni twin-turbocharged, berkapasitas 3.0 liter instalasi V6. Tenaganya sendiri mencapai 400 dk dan torsi maksimum 475 Nm. Akselerasi 0-100 kpj tuntas dalam waktu 4,5 detik saja
+Tipe Deluxe Advance, desainnya lebih elegan dan mengutamakan kenyamanan. Oleh karena itu tidak ada penambahan aero kit berlebih. Hanya saja pelek diganti lebih besar dan warna dual tone ala Rolls Royce. Serta dilengkapi dengan fitur safety suite ProPilot 2.0, dan penggunaan bahan kulit pada bagian interiornya."
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

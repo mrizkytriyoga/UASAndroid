@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Berita2Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict2">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:text="Suzuki Baleno memang jadi unit yang jarang ditemui untuk jadi bahan modifikasi"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Suzuki Baleno memang jadi unit yang jarang ditemui untuk jadi bahan modifikasi. Namun, Bani Abdullah, seorang wirausahawan yang berdomisili di Bekasi, Jawa Barat, sanggup untuk menyulap mobil tersebut jadi pusat perhatian di jalan raya
+Baleno lansiran 2019 tersebut memiliki konsep mengacu tema elegan, Dulu saya pakai mini MPV, tema modifikasi saya juga sama dengan yang sekarang (Suzuki Baleno). Nah, saya mau tuang ide saya lagi di mobil hatchback ini, ujarnya
+Menurutnya, mobil ini sudah terlihat good-looking dari kondisi standarnya. Maka dari itu, pria yang akrab disapa Bani ini ingin lebih memaksimalkan tampilannya lewat modifikasi tersebut. Kalau kata orang dulu tuh, barang yang kita punya cerminan dari diri sendiri, ujarnya sambil tertawa lepas"
+                android:textSize="15dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict12">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Setelah saya implementasikan, ternyata berbanding terbalik apalagi saat setting fitment-nya, akhirnya saya merelakan bagian depan dan arm belakang harus di custom sasisnya agar pendeknya mobil ini pas, memang banyak yang harus dikorbankan, imbuh pemilik showroom mobil tersebut
+                Dongkrak penampilan, pelek mobil standarnya dipensiunkan dan diganti dengan lansiran Work Seeker orisinal ukuran 17 inci lebar 8 inci di depan dan lebar 9 inci di belakang. Bannya menggunakan Accelera dengan profil 195/40 di bagian depan, dan 205/40 di bagian belakang.
+Mobil kemudian dibikin rapat bumi lewat suspensi udara merek Air Pride berspesifikasi 2 titik komplet dengan selenoidnya. Tak ketinggalan untuk mempercantik tampilan dan fungsionalitas, ditambahkan crossbar pada kabin dan roof box."
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

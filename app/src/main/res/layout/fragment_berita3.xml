@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Berita3Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict3">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:text="Profil - Spesifikasi Lengkap Skuter Roda 4 Qooder"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Segmen skuter premium di Tanah Air semakin meriah, karena PT Enduro Republic Indonesia baru saja meluncurkan skuter matik roda 4 Qooder, pada hari Jumat (13/12).
+Dari segi tampilan, sosok Qooder memiliki bentuk yang terbilang proporsional untuk ukuran skuter besar. Qooder memiliki panjang 2.200 mm, tinggi 1.360 mm (1.600 mm bila dihitung dengan windshield), dan lebar 840 mm."
+                android:textSize="15dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict13">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Wajah depannya terlihat futuristik, dengan garis tajam pada panel di bawah lampu, yang mengalir hingga ke sayap samping. Lampu depannya telah dilengkapi dengan projector, sehingga menjamin penerangan yang maksimal di malam hari.
+Meski ukuran bodinya terbilang besar, namun bagasi yang dimiliki Qooder hanya dapat menampung satu buah helm full face. Di bagian belakang, terkesan sederhana, kecuali penampakan 2 buah roda yang terlihat mencolok dengan knalpot di bagian tengahnya."
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

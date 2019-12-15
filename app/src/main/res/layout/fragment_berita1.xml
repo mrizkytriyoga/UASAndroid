@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Berita1Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict1">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:text="Ini Beberapa Ide Unik Honda Pada Mobil Jaman Dulu"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text=" Mungkin sebagian pecinta mobil setuju, kalau mobil lawas memiliki segudang inovasi aneh dan terbilang unik jika dibandingkan dengan mobil sekarang.
+
+Salah satu merek mobil yang terbilang kreatif dalam hal ini adalah Honda, sebelumnya KabarOto pernah membahas soal City Turbo dengan keunikkannya. Mobil hatchback kecil ini ternyata memuat sebuah motor lipat lagi dalam bagasinya, yang diberi nama Motocompo. Motor lipat tersebut sudah menjadi satu bagian dengan mobil.
+Lalu ada juga Honda CR-V generasi kedua, dimana kepraktisan bisa dibilang tidak kalah unik. Sebab cover ban serep pada bagasi ternyata bisa berfungsi sebagai meja. Apabila sewaktu-waktu travelling bersama keluarga atau teman sudah ada meja tersedia, dan masih banyak lagi inovasi pada mobil lainnya."
+                android:textSize="15dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict11">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="      Nah tapi pasti belum banyak yang tahu nih, karena bisa dibilang fungsinya tidak terlalu sering kita gunakan. Kalau zaman sekarang panduan pengoperasian mobil atau buku manual pasti hanya jadi pemenuh ruang penyimpanan, atau disimpan sebagai kelengkapan dokumen ketika mobil mau dijual
+Lewat akun Instagram @celotehanroda4offcial dan website kasetlama.com, yang meng-upload sebuah buku panduan beserta kaset, dengan judul “Pedoman dan Keterangan Pemakaian Mobil Honda”. Merupakan cara Honda agar pemilik mobil hanya memutar pada music player untuk mengetahui langkah pemakaian mobilnya."
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

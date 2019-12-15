@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Berita4Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pcit4">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:text="Indonesia Dan Jepang Dorong Percepatan Produksi Kendaraan Listrik"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="   Indonesia dan Jepang terus menjalin kerja sama dalam upaya pengembangan industri otomotif, termasuk mendorong percepatan produksi kendaraan yang ramah lingkungan. Langkah strategis ini diwujudkan melalui sinergi antara Kementerian Perindustrian RI dengan Kementerian Ekonomi, Perdagangan dan Perindustrian (Ministry of Economy, Trade and Industry/METI) Jepang.
+“Mereka memberikan gambaran tentang pengembangan industri kendaraan listrik. Adapun yang kami bahas, antara lain mengenai kebijakan pengembangan industri otomotif kedua negara,kata Direktur Jenderal Industri Logam, Mesin, Alat Transportasi dan Elektronika (ILMATE) Kemenperin RI, Harjanto pada acara The 2nd Indonesia – Japan Automotive Dialogue di Bali. Selain itu menurutnya, tren dan aktivitas penggunaan kendaraan listrik serta pengembangan baterai di dunia."
+                android:textSize="15dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/pict14">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="   Harjanto menjelaskan, pelaksanaan kegiatan tersebut guna saling berbagi pengetahuan dan pengalaman mengenai standardisasi dan regulasi teknis yang diimplementasikan di kedua negara. Salah satunya adalah pemanfaatan energi baru terbarukan (biofuel).
+Kami juga mendapatkan input dari mereka khususnya untuk implementasi B30. Misalnya, mereka memberikan masukan tentang bagaimana mendapatkan fuel yang berkualitas lebih baik. Contohnya, campuran Fatty Acid Methyl Ester (FAME)-nya itu ada proses lanjutan, sehingga akan menghasilkan proses hydrogenated vegetable oil, ujarnya.
+Bahkan, menurut Harjanto, kedua belah pihak membicarakan terkait perkembangan investasi dan insentif untuk pengembangan industri kendaraan listrik. Apalagi, Indonesia - Jepang telah lama menjadi mitra strategis dalam menjalin kerja sama ekonomi."
+                android:textSize="15dp">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
