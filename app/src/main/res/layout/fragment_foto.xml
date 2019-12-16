@@ -85,7 +85,7 @@
             </ViewFlipper>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/berita1"
+                android:id="@+id/foto1"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:layout_marginRight="20dp"
@@ -113,7 +113,7 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/berita2"
+                android:id="@+id/foto2"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:layout_marginRight="20dp"
@@ -125,12 +125,12 @@
                     android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/pict2" />
+                    android:src="@drawable/audi1" />
                 <TextView
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="250dp"
                     android:layout_height="25dp"
-                    android:text="Aston Martin Vanquish"
+                    android:text="Audi RS5"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:layout_marginTop="50dp"
@@ -141,7 +141,7 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/berita3"
+                android:id="@+id/foto3"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:layout_marginRight="20dp"
@@ -153,12 +153,12 @@
                     android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/pict3" />
+                    android:src="@drawable/mercy1" />
                 <TextView
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="250dp"
                     android:layout_height="25dp"
-                    android:text="Aston Martin Vanquish"
+                    android:text="Mercedes Benz AMG GT"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:layout_marginTop="50dp"
@@ -169,7 +169,7 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/berita4"
+                android:id="@+id/foto4"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:layout_marginRight="20dp"
@@ -181,12 +181,12 @@
                     android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/pcit4" />
+                    android:src="@drawable/lambo1" />
                 <TextView
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="250dp"
                     android:layout_height="25dp"
-                    android:text="Aston Martin Vanquish"
+                    android:text="Lamborghini Aventador"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:layout_marginTop="50dp"
@@ -196,7 +196,7 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/berita5"
+                android:id="@+id/foto5"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:layout_marginRight="20dp"
@@ -208,19 +208,19 @@
                     android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/pict5" />
+                    android:src="@drawable/jeep1" />
                 <TextView
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="250dp"
                     android:layout_height="25dp"
-                    android:text="Aston Martin Vanquish"
+                    android:text="Jeep Wrangler Unlimited"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:layout_marginTop="50dp"
                     android:layout_marginStart="125dp">
 
                 </TextView>
-               
+
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
