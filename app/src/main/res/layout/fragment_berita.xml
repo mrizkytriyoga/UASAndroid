@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mecha"
+    android:background="#FFFFCC"
     tools:context=".fragment.BeritaFragment">
 
 
@@ -17,12 +17,72 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="350dp"
-                android:src="@drawable/logo9">
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:autoStart="true"
+                android:flipInterval="3000">
 
-            </ImageView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="35dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/pict6" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_marginTop="190dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:paddingLeft="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="All New Nissan Sentra Generasi Kedelapan, Ingin Tetap Laris"/>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="35dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/pict7" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_marginTop="190dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:paddingLeft="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="Wih Nissan Navara N-Trek Warrior Makin Gagah"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="35dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/pict9" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_marginTop="190dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:paddingLeft="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nissan Juke 2020 Akhirnya Rilis"/>
+
+                </RelativeLayout>
+
+            </ViewFlipper>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/berita1"
