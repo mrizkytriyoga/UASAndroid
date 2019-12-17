@@ -198,7 +198,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/foto5"
                 android:layout_width="match_parent"
-                android:layout_height="125dp"
+                android:layout_height="165dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp">

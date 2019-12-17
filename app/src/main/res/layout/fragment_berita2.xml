@@ -59,7 +59,7 @@ Menurutnya, mobil ini sudah terlihat good-looking dari kondisi standarnya. Maka 
                 android:id="@+id/teks3"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="350dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:layout_below="@id/teks"
