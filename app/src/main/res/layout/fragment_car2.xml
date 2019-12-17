@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Car2Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Tipe Mobil Coupe"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp">
+
+            </TextView>
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:autoStart="true"
+                android:flipInterval="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/coupe1" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/coupe2" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/coupe3" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/coupe4" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/coupe5" />
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Penjelasan"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Mobil coupe ini merupakan mobil yang memiliki ukuran kecil dengan jumlah pintu dan jok penumpang berjumlah dua, namun beberapa diantaranya ada yang memiliki jok penumpang berjumlah empat. Ciri lainnya yang bisa anda lihat adalah pada bagian atap mobil..
+\n
+\n  Biasanya desain dari atap mobil ini cenderung ke arah belakang. Mobil ini didesain dengan unik dengan interior nya yang memang realtif sempit, antara jarak kursi depan dengan belakang berkurang drastis sehingga membuat tampilannya seperti tipe sedan.
+\n"
+                android:textSize="15dp">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/teks6"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:text="Berikut ini beberapa jenis mobil tipe Coupe:"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks7"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text=" 1. Notchback Coupe
+\n
+\n Mobil coupe ini memiliki bagasi mobil yang datar seperti pada tipe mobil sedan. Jenis mobil ini antara lain adalah BMW Seri 3 Coupe, Nissan Silvia, Mercedes Bez CL, dan lainnya.
+\n
+\n 2. Fastback Coupe
+\n
+\n Mobil Coupe ini terbilang cukup unik karena memiliki ciri khas pada bagian kaca belakang mobil yang miring dengan luas bagasi yang lebih kecil. Contoh dari jenis mobil ini adalah Ford Mustang, berbagai tipe mobil ferarri, dan masih banyak lainnya.
+\n
+\n 3. Liftback Coupe
+\n
+\n Bisa dikatakan bahwa jenis mobil coupe ini terbilang paling praktis dibandingkan dengan mobil coupe jenis lainnya. Mobil coupe ini memiliki desain yang indah dengan ciri khas yaitu dua pintu penumpang serta satu pintu pada bagian bagasi. Beberapa contoh mobil dari jenis mobil coupe ini adalah Supra, Toyota Celica, dan lainnya
+\n
+\n 4. Convertible Coupe
+\n
+\n Mobil ini juga sering kali disebut sebagai Cabriolet karena memiliki keunggulan pada bagian atap mobil yang dapat dibuka atau ditutup sesuai dengan keinginan pengguna. Biasanya mobil ini memiliki karakterirstik 4 tempak duduk, namun terkadang juga ada beberapa diantaranya yang hanya memiliki 2 jok penumpang saja atau yang dikenal dengan nama roadster
+"
+                android:textSize="15dp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,6 +1,5 @@
 package id.ac.polinema.uasandroid.fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +9,6 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import id.ac.polinema.uasandroid.R;
-import id.ac.polinema.uasandroid.activities.DeskripsiActivity;
 
 public class BeritaFragment extends Fragment {
     @Override

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Car1Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Tipe Mobil Convertible"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp">
+
+            </TextView>
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:autoStart="true"
+                android:flipInterval="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/convertible1" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/convertible2" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/convertible3" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/convertible4" />
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Penjelasan"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="   Salah satu jenis mobil yang populer di pasaran saat ini adalah tipe mobil conertible. Mobil ini biasanya memiliki bentuk yang kecil dengan bagian atap yang dapat dilipat sehingga membuat pengguna mobil dapat mengubah mobil dari kendaraan tertutup menjadi kendaraan terbuka.
+\n
+\n   Karakteristik lainnya dari mobil convertible ini biasanya memiliki dua pintu, empat convertible, serta jok mobil dari dua hingga 4 buah. Berikut ini beberapa mobil tipe convertible yang populer di dunia, seperti Volkswagen New Beetle, Dodge Avenger, Ford Mustang, PontiacSunfire, Mitsubishi Eclipse Spyder, dan masih banyak lainnya. Salah satu keunggulan dari mobil ini terletak pada bagian atapnya yang dapat didesain sesuai dengan keinginan pengguna mobil.
+\n
+\n   Terdapat dua jenis mobil tipe convertible ini, antara lain adalag covertible soft top dan hard convertible. Untuk jenis mobil tipe convertible soft top biasanya pada bagian atap terbuat dari bahan vinyl atau kanvas.
+
+Sedangkan pada mobil tipe hard convertible, bagian atap biasanya berbahan baja atau plastik. Pada beberapa mobil tipe convertible biasanya dapat dilipat dengan cara manual, sedangkan beberapa lainnya sudah menggunakan cara yang otomatis"
+                android:textSize="15dp">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/teks6"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:text="Fungsi Convertible Roof Pada Mobil"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks7"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="Adapun beberapa fungsi convertible roof pada mobil antara lain adalah sebagai berikut :
+\n 1. Sebagai perangakat dalam mobil yakni atap yang bisa digunakan dua format, yaitu format roadster ( tanpa atap ) atau bisa juga dengan mengguakan atap.
+\n
+\n 2. Sebagai perangkat dalam mobil yang bisa meebria kenyamana pada penupang atau pemilik kendaraan tersebut, karena bisa difungsikan sesuai dengan keinginnanya. Atau bisa difungsikan sesuai dengan kebutuhannya.
+\n
+\n 3. Sebagi pernagkat dalam mobil yang bisa memberikan kesna megah dan mewah, karena memang mobil yang memiliki convertible roof ini adalah mobil dengan jenis kelas atas. Jadi ketika ornag melihatnya anda memakai mobil jenis ini, akan membuat ornag kagum dan adna akan terkesan elegan."
+                android:textSize="15dp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

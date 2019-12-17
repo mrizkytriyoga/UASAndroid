@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Car5Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Tipe Mobil SUV"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp">
+
+            </TextView>
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:autoStart="true"
+                android:flipInterval="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/suv1" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/suv2" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/suv3" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/suv4" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/suv5" />
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Penjelasan"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  SUV (Sport Utility Vehicle) merupakan jenis mobil yang memadupadankan antara mobil sedan dengan mobil jeep. Mobil SUV terbagi menjadi beberapa kategor, antara lain adalah Low SUV, Medium SUV, High SUV, serta Double Cabin. Prioritas utama dari desain mobil SUV ini adalah dapat digunakan di berbagai medan, bahkan hingga medan yang sulit sekalipun.
+\n
+\n   Desain dari mobil SUV memang ditujukan untuk dapat mengangkut banyak penumpang di dalamnya. Tipe mobil SUV menggunakan penggerak empat roda atau Four Wheel Drive yang kemudian berkembang menjadi seven seater. Namun ada beberapa mobil SUV yang menggunakan penggerak dua roda untuk membuatnya lebih nyaman digunakan.
+"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks4"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="SUV Compact"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks5"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  SUV bertipe Compact (terpadu) ialah kelas SUV yang lebih cenderung ke ukuran yang padat dan biasanya dibangun dengan kapasitas muatan dan ruang penumpang yang terbatas, dan pada umumnya memiliki torsi mesin (CC) sedang (1.8-2.6)
+\n
+\n Contoh dari SUV tipe ini ialah :
+\n
+\n Nissan X-Trail, Chevrolet Captiva, Ford Escape, Honda CR-V, Toyota Rav4"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks8"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="SUV Ukuran Sedang"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks10"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  SUV bertipe Mid-sized ialah kelas SUV yang ukuranya jatuh di antara SUV berukuran Compact dan SUV berukuran Full-sized (besar)
+\n
+\n Contoh dari SUV tipe ini ialah :
+\n
+\n  Toyota Fortuner, Mitsubishi Pajero, Ford Explorer, Nissan Terrano, Volkswagen Touareg"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks11"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="SUV Ukuran Besar"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks13"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  SUV bertipe Full-sized (berukuran penuh) ialah kelas SUV yang ukuranya di atas kelas Mid-sized (sedang) dan jauh lebih besar daripada kelas SUV Compact. SUV ukuran ini lebih cenderung memiliki ukuran interior dan eksterior yang besar, luas, dan lebar serta ukuran muatan yang banyak
+\n
+\n Contoh dari SUV tipe ini ialah :
+\n
+\n  Chevrolet Suburban, Hummer, Nissan Armada, Nissan Patrol, Land Rover Discovery"
+                android:textSize="15dp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

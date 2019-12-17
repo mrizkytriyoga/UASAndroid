@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Car4Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Tipe Mobil Minivan (MPV)"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp">
+
+            </TextView>
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:autoStart="true"
+                android:flipInterval="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/mpv1" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/mpv2" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/mpv3" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/mpv4" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/mpv5" />
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Penjelasan"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="    Klasifikasi mobil multi-fungsi yang dapat digunakan sebagai pengangkut penumpang sekaligus kendaraan pembawa barang. Kendaraan bertipe ini cenderung memiliki klasifikasi mini-bus(bus kecil) dilihat dari bentuknya. Produksi kendaraan yang bertipe MPV ini biasanya terdapat dua varian yaitu untuk membawa penumpang (dengan kursi penumpang belakang) dan untuk membawa kargo (tanpa jendela dan kursi penumpang belakang) yang hanya dikhususkan untuk membawa barang.
+\n
+\n   Tipe mobil lainnya yang beredar di pasaran saat ini adalah minivan atau yang dikenal dengan nama MPV (Multi Purposes Vehicle). Mobil MPV terbagi ke dalam empat kategori, yaitu tipe LOW MPV, Medium MPV, Luxury MPV, serta High MPV.
+
+Sedangkan pada mobil tipe hard convertible, bagian atap biasanya berbahan baja atau plastik. Pada beberapa mobil tipe convertible biasanya dapat dilipat dengan cara manual, sedangkan beberapa lainnya sudah menggunakan cara yang otomatis"
+                android:textSize="15dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks4"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Sejarah"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks5"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="  Pada tahun 1990an geliat mobil MPV di Indonesia cukup besar, diawal tahun 90an Toyota Kijang yang paling diminati masyarakat, menawarkan mesin 1.8 (82 PS) dan 1.5 (66 PS) yang dikenal bandel dan cocok untuk kondisi jalanan di Indonesia. Kemudian Isuzu menghadirkan MPV bermesin diesel Isuzu Panther sangat diminati yang dikenal sangat irit ini dengan mesin 2300 cc OHV yang bertenaga 63 PS
+\n
+\n Sebagi pernagkat dalam mobil yang bisa memberikan kesna megah dan mewah, karena memang mobil yang memiliki convertible roof ini adalah mobil dengan jenis kelas atas. Jadi ketika ornag melihatnya anda memakai mobil jenis ini, akan membuat ornag kagum dan adna akan terkesan elegan
+\n
+\n Kemudian disegmen lainnya Daihatsu tak mau ketinggalan, tahun 1994 melakukan pengubahan tampilan dari Daihatsu Zebra menjadi Daihatsu Zebra Espass yang menawarkan mesin 1600 cc yang bertenaga 88 PS jauh di atas rival-rival lainnya pada masa itu. selain itu mesin 1300 cc (75 PS) yang lebih irit."
+                android:textSize="15dp">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/teks6"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:text="Berikut contoh mobil dengan konsep MPV :"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks7"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text=" 1. MPV: Nissan Grand Livina, Nissan Serena, Honda Stream, Kijang Innova
+\n
+\n 2. MiniMPV: Nissan Livina XR, Suzuki Swift, Chevrolet Aveo, Toyota Yaris
+\n
+\n 3. Crossover: Suzuki SsX-4
+\n
+\n 4. City Car: KIA Picanti, Hyundai i10, Karimun Estilo
+\n
+\n 5. Luxury Hatchback: VW GOlf, Audi A3"
+                android:textSize="15dp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

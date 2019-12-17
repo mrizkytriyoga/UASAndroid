@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".fragment.Car6Fragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/teks"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Tipe Mobil Sedan"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp">
+
+            </TextView>
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:autoStart="true"
+                android:flipInterval="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/sedan1" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/sedan2" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/sedan3" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/sedan4" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="230dp"
+                        android:src="@drawable/sedan5" />
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/teks3"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Penjelasan"
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks2"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text="    Mobil sedan ini didesain dengan bodi mobil yang cukup pendek dan memanjang. Sudah cukup lama sedan menjadi favorit mobil banyak orang karena desainnya yang mewah dan anggun.
+\n
+\n   Namun kelemahan dari tipe mobil ini adalah bodinya yang sulit menerjang jalanan yang banjir, hal ini dikarenakan bodi mobil nya yang ceper.
+"
+                android:textSize="15dp">
+            </TextView>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/teks6"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:text="Mobil Sedan menjadi beberapa kategori : "
+                android:textStyle="bold"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/teks7"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/teks"
+                android:text=" 1. Small Sedan: Honda City, Toyota Vios
+\n
+\n 2. Medium Sedan: Honda Civic, Chevrolet Cruze, Toyota Corolla Altis
+\n
+\n 3. Large Sedan: Toyota Carmy, Nissan Teana, Toyota Camry
+\n
+\n 4. Large Luxury Sedan: Mercedes Benz S-Class, Audi A, BMW 7 Series
+\n
+\n 5. Medium Luxury Sedan: BMW 5 Series, Audi A6, Mercedes Benz E-Class
+\n
+\n 6. Small Luxury Sedan: Mercedes Benz C-Class, Audi A4, BMW 3 Series"
+                android:textSize="15dp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
