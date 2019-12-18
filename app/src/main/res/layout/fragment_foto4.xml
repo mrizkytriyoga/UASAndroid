@@ -96,7 +96,9 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_below="@id/teks"
-                android:text="   Lamborghini Aventador adalah produk masal Lamborghini yang lumayan sukses. Inilah penerus \'rombongan\' Lamborghini bermesin V12 seperti Diablo, Miura, dan sebagainya. Satu hal yang pasti, banyak yang jatuh cinta dengan mobil ini. DEngan bentuknya, suaranya, dan tentu kemampuannya. Kini, Lamborghini menelurkan lagi Aventador baru berjuluk Aventador S. Mesinnya tentu masih sama V12 dengan kapasitas 6,5 liter, namun kali ini tenaganya melonjak jadi 750 hp, dengan torsi 650 Nm. Aventador S juga memiliki bobot yang lebih ringan sekitar 20 persen dari sebelumnya. Fitur baru lainnya adalah kemampuan keempat rodanya untuk membelok (4-wheel steering)."
+                android:text="    Lamborghini Aventador adalah produk masal Lamborghini yang lumayan sukses. Inilah penerus \'rombongan\' Lamborghini bermesin V12 seperti Diablo, Miura, dan sebagainya. Satu hal yang pasti, banyak yang jatuh cinta dengan mobil ini. DEngan bentuknya, suaranya, dan tentu kemampuannya.
+            \n
+            \n   Kini, Lamborghini menelurkan lagi Aventador baru berjuluk Aventador S. Mesinnya tentu masih sama V12 dengan kapasitas 6,5 liter, namun kali ini tenaganya melonjak jadi 750 hp, dengan torsi 650 Nm. Aventador S juga memiliki bobot yang lebih ringan sekitar 20 persen dari sebelumnya. Fitur baru lainnya adalah kemampuan keempat rodanya untuk membelok (4-wheel steering)."
                 android:textSize="15dp">
             </TextView>
 

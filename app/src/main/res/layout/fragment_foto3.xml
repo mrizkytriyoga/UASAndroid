@@ -96,7 +96,9 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_below="@id/teks"
-                android:text="   Dalam versi coupe, Mercedes-AMG GT tampil mendominasi dan memberi pernyataan diri sebuah sports car. Bagaimana jika dibuat ke dalam bentuk sedan empat pintu? Ya, pihak manufaktur sedang menyiapkan Mercedes-AMG GT versi sedan empat pintu. Tapi itu nanti. Sementara ini, Mercedes-AMG GT tersedia sebagai super car berbentuk coupe, yang desainnya selalu mengundang decak kagum. Di Indonesia, AMG GT dihadirkan oleh PT MErcedes-Benz Distribusi Indonesia dalam dua varian yaitu GT S dan yang paling brutal, GT R. Versi GT S memiliki tenaga 462 PS, sementara GT R punya 577 ps. KEduanya sama-sama mengandalakna mesin berkode M178 dengan konfigurasi V8 ebrimbuhan turbo ganda (twin turbo)."
+                android:text="    Dalam versi coupe, Mercedes-AMG GT tampil mendominasi dan memberi pernyataan diri sebuah sports car. Bagaimana jika dibuat ke dalam bentuk sedan empat pintu? Ya, pihak manufaktur sedang menyiapkan Mercedes-AMG GT versi sedan empat pintu. Tapi itu nanti.
+             \n
+             \n   Sementara ini, Mercedes-AMG GT tersedia sebagai super car berbentuk coupe, yang desainnya selalu mengundang decak kagum. Di Indonesia, AMG GT dihadirkan oleh PT MErcedes-Benz Distribusi Indonesia dalam dua varian yaitu GT S dan yang paling brutal, GT R. Versi GT S memiliki tenaga 462 PS, sementara GT R punya 577 ps. KEduanya sama-sama mengandalakna mesin berkode M178 dengan konfigurasi V8 ebrimbuhan turbo ganda (twin turbo)."
                 android:textSize="15dp">
             </TextView>
 

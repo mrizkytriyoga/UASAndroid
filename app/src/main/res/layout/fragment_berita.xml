@@ -102,7 +102,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
-                    android:text="Ini Beberapa Ide Unik Honda Pada Mobil Jaman Dulu"
+                    android:text="Ini beberapa Ide Unik Honda Pada Mobil Jaman Dulu"
                     android:textSize="10dp"
                     android:textStyle="bold"
                     android:layout_marginTop="20dp"
@@ -113,9 +113,9 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
-                    android:text=" Mungkin sebagian pecinta mobil setuju, kalau mobil lawas memiliki segudang inovasi aneh dan terbilang unik jika dibandingkan dengan mobil sekarang."
+                    android:text=" Mungkin sebagian pecinta mobil setuju, kalau mobil lawas memiliki segudang inovasi."
                     android:textSize="10dp"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginStart="125dp">
 
                 </TextView>
@@ -152,7 +152,7 @@
                     android:layout_height="100dp"
                     android:text="Suzuki Baleno memang jadi unit yang jarang ditemui untuk jadi bahan modifikasi"
                     android:textSize="10dp"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginStart="125dp">
 
                 </TextView>
@@ -187,9 +187,9 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
-                    android:text="Segmen skuter premium di Tanah Air semakin meriah, karena PT Enduro Republic Indonesia baru saja meluncurkan skuter matik roda 4 Qooder,"
+                    android:text="Segmen skuter premium di Tanah Air semakin meriah, karena PT Enduro Republic Indonesia baru saja."
                     android:textSize="10dp"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginStart="125dp">
 
                 </TextView>
@@ -226,7 +226,7 @@
                     android:layout_height="100dp"
                     android:text=" Indonesia dan Jepang terus menjalin kerja sama dalam upaya pengembangan industri otomotif"
                     android:textSize="10dp"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginStart="125dp">
 
                 </TextView>
@@ -263,7 +263,7 @@
                     android:layout_height="100dp"
                     android:text=" Seperti yang kita ketahui, dulunya Skyline memiliki varian tertinggi yakni GT-R. Sama seperti halnya Honda Civic dengan Type R."
                     android:textSize="10dp"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginStart="125dp">
 
                 </TextView>

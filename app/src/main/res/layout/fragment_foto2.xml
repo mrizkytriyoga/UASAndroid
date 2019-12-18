@@ -96,7 +96,9 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_below="@id/teks"
-                android:text="   Audi RS5 terbaru diperkenalkan di GIIAS 2018. Mobil ini didaulat sebagai mobil grand Turismo, yang cocok dikendarai harian. Salah satu yang diunggulkan adalah mesin baru dengan bentuk V6 berkapasitas 2,9 liter. Dengan imbuhan dua turbocharger, RS5 Coupe memiliki tenaga hingga 450 ps yang disalurkan ke keempat roda (Quattro). Tugas penyaluran daya ini dibebankan kepada transmisi 8-speed dual clutch Triptronic generasi baru, yang diklaim sangat responsif."
+                android:text="    Audi RS5 terbaru diperkenalkan di GIIAS 2018. Mobil ini didaulat sebagai mobil grand Turismo, yang cocok dikendarai harian. Salah satu yang diunggulkan adalah mesin baru dengan bentuk V6 berkapasitas 2,9 liter.
+             \n
+             \n    Dengan imbuhan dua turbocharger, RS5 Coupe memiliki tenaga hingga 450 ps yang disalurkan ke keempat roda (Quattro). Tugas penyaluran daya ini dibebankan kepada transmisi 8-speed dual clutch Triptronic generasi baru, yang diklaim sangat responsif."
                 android:textSize="15dp">
             </TextView>
 

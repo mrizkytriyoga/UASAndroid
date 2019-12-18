@@ -96,7 +96,9 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_below="@id/teks"
-                android:text="   Versi double cabin Jeep Wrangler sudah cukup lama menjadi perbincangan di dunia maya. Mobil yang rencananya diedarkan pada 2019 mendatang itu, akhirnya menampakkan wujud jadinya meski belum berupa unit produksi. Jeep Wrangler pickup tertangkap lensa kamera saat uji jalan. Meski dibalut kain kamuflase untuk menyamarkan detail, sejumlah bagian bisa diidentifikasi cukup jelas."
+                android:text="    Versi double cabin Jeep Wrangler sudah cukup lama menjadi perbincangan di dunia maya. Mobil yang rencananya diedarkan pada 2019 mendatang itu, akhirnya menampakkan wujud jadinya meski belum berupa unit produksi.
+            \n
+            \n   Jeep Wrangler pickup tertangkap lensa kamera saat uji jalan. Meski dibalut kain kamuflase untuk menyamarkan detail, sejumlah bagian bisa diidentifikasi cukup jelas."
                 android:textSize="15dp">
             </TextView>
 
