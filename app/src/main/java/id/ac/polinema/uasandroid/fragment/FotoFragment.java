@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import id.ac.polinema.uasandroid.R;
 
 public class FotoFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

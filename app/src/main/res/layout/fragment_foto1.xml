@@ -5,17 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context=".fragment.Foto1Fragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".fragment.Foto1Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
             <ViewFlipper
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
@@ -25,80 +27,88 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_marginTop="10dp"
                         android:layout_height="230dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/as1" />
 
-
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_marginTop="10dp"
                         android:layout_height="230dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/as2" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_marginTop="10dp"
                         android:layout_height="230dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/as3" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_marginTop="10dp"
                         android:layout_height="230dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/as5" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_marginTop="10dp"
                         android:layout_height="230dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/as6" />
 
                 </RelativeLayout>
 
             </ViewFlipper>
+
             <TextView
                 android:id="@+id/teks"
-                android:textColor="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="0dp"
                 android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
                 android:text="Aston Martin Vanquish"
-                android:textStyle="bold"
-                android:textSize="30dp">
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp"
+                android:textStyle="bold">
 
             </TextView>
 
             <TextView
                 android:id="@+id/teks2"
-                android:textColor="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="5dp"
                 android:layout_below="@id/teks"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
                 android:text="   Aston Martin Vanquish S memiliki konstruksi rangka super ringan yang terbuat dari carbon-fibre dan berbagai komponen aerodinamis yang juga terbuat dari carbon-fibre. Salah satunya, front splitter dan rear diffuser, yang berguna untuk meningkatkan kestabilan kendaraan saat dipacu dalam kecepatan tinggi. Ditenagai mesin V12 berkapasitas 5.935 cc yang dimiliki mobil dua pintu ini, mampu menghasilkan tenaga sampai 594 hp (lebih kuat 26 hp dibandingkan Vanquish standar). Mesin tipe S dikombinasi transmisi 8 percepatan Touchtronic III yang sanggup membawa Vanquish S melesat 0-100 kpj dalam waktu 3,5 detik saja.."
-                android:textSize="15dp">
-            </TextView>
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"></TextView>
 
         </LinearLayout>
     </ScrollView>
